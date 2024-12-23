@@ -1,0 +1,53 @@
+Question 
+1 - Mamoka ny resultat eleves par semestre : S1 , S2 , S3 (sans option) ; S4 , S5 , S6 par option ;(list afaka)
+2 - Si tsy afaka , affichena ny matiere averina par eleve n=raha te ivoka license izy ;
+
+	
+	Tsy afaka :
+		- <10 moyenne generale 
+		- misy <6 ny note 
+		- <10 >= 3 ny note
+		- misy 0 (mitovy am < 6 ihany )
+		
+
+Données :
+	-Classe : - Matiere
+			  - S1 , S2 ...		
+	-Matieres : -credits (coef)
+		
+	-Notes eleves par matiere par semestre 
+	
+A faire : 
+	- Saisie note : Matiere par semestre 
+					Saisie note : note par semestre 
+								  ilay eleve ampidrinna (5) dia considerena ho S1 da vy eo faka alaina am alalan fonction resultat ny eleve afaka S2 par rapport am  note S1 de reny ndray avy eo saisisena ny note S2 any ;
+
+
+-Question
+	-list ny apotra sa atao admis le olona ;
+	-apotra ve le note 
+	-ao am tab etudiant ve misy ny semestre ?
+	-ao am tab etudiant ve misy ny optiony sa ve hoe par rappot ny noteny ny option
+	-le etudiants ve am farany vo apotra ny matiere anovany ratrapage sa manisy arguments emestre? de le averiny ve misy anle hoe componsation
+	
+
+Question :
+	-Misy note bedabe par matiere :
+		* misafidy hoe in am reny note reny no safidiana (misy parametre zany any mi-lier ny matiere sy ny max sa moynne no raisina )
+			Azo le note izay , de in y no apoitra am bulletin de iny no atao anle max rehefa misy matiere optionnel (S4,S5,S6);
+	-Deliberation 
+		* matiere1 (angalana) , nb de point , matiere anampiana ;
+		* condition deliberation : etudiant tsy admis fa nahazo matiere generale 
+		* le note angalana tsy maintsy efa miaraka am coefficient satria lasa tsy mitovy le moyenne avant et apres deliberation 
+		* de rehefa miova le note any am parcour 1 de miova daholo izy any amin ny parcours rehetra ze misy azy
+		
+			
+
+			pitsipitsiny :-le ao amin ny manampoitra ny note de tokony ny Etu ny no ampoitra
+						- CSS
+
+
+	-Mamorana tab 3 any aminy MYSQL :
+		-Annee scolaire : -miteny hoe ity annee scolaire ity manomboka amin izao dia mifarana amin iza o 
+		-Ecolage : ty annee scolaire ity zao no tsimaintsy aloha par mois 
+		-payement annee scolaire ; miteny hoe ity eleve ity dia nandoa (montant) t@ date ity 
